@@ -15,9 +15,8 @@ from datetime import datetime
 from typing import Dict, Any
 
 # Nhập dữ liệu khi khởi chạy
-TOKEN = input("\033[32m Vui Lòng Nhập Token Bot:\033[37m ")
-IDADMIN_GOC = int(input("\033[32m Vui Lòng Nhập Id Admin Gốc:\033[37m "))
-
+TOKEN = "MTQwMTg4NTMzMzk1OTc0MTU3MQ.GnPxih.T0q6mQdurEIFKWJphiekVnebNu9w_wkj0dAcVM"
+IDADMIN_GOC = 1140857678034378762
 intents = discord.Intents.default()
 intents.messages = True
 intents.message_content = True
@@ -2128,4 +2127,5 @@ async def hdan(ctx):
     await ctx.send(embed=embed)
 
        
+
 bot.run(TOKEN)
